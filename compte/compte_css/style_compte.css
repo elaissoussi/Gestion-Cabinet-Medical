@@ -1,0 +1,23 @@
+@charset "utf-8";
+#content_compte {
+	padding-left:10%;
+	padding-right:10%;
+	width:80%;
+	min-height:589px;
+	
+	position:relative;
+	top: 20px;
+}
+#content_compte_gauche{
+	float:left;
+	padding-top:8px;
+	width:25%;
+	
+	}
+#content_compte_droit{
+	
+	float:right;
+	width:72%;
+	padding-top:8px;
+	height:100px;
+	}	

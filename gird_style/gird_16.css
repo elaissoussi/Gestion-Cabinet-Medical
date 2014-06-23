@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* Média fluide simple
+   Remarque : un média fluide exige que vous supprimiez les attributs de hauteur et de largeur du média du code HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 ne prend pas en charge max-width ; la largeur par défaut est donc fixée à 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Propriétés de grille fluide Dreamweaver
+	----------------------------------
+	dw-num-cols-mobile:		5;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	16;
+	dw-gutter-percentage:	25;
+	
+	Inspiré par "Responsive Web Design" par Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	et le système Golden Grid par Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+/* Disposition mobile : 480px et moins. */
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 87.36%;
+	padding-left: 1.82%;
+	padding-right: 1.82%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+/* Disposition tablette : 481px sur 768px. Hérite des styles de : Disposition mobile */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width: 90.675%;
+	padding-left: 1.1625%;
+	padding-right: 1.1625%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+}
+
+/* Disposition bureau : 769px à max. 1232px.  Hérite des styles de : Disposition mobile et disposition tablette */
+
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	width: 98.75%;
+	max-width: 1232px;
+	padding-left: 0.625%;
+	padding-right: 0.625%;
+	margin: auto;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+}

@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+#form_content {
+	height:589px;
+	width:80%;
+	margin-left:10%;
+	
+	text-align:center;
+	vertical-align:middle;
+}
+#inscription_form{
+	padding-top:20px;
+
+}
+#login_form{
+	padding-top:150px;
+	}

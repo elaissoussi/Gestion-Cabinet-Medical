@@ -1,0 +1,214 @@
+@charset "utf-8";
+
+#haut{
+	position:fixed;
+	
+	right:10px;
+	bottom:10px;
+	opacity:0.15;
+	z-index:5;
+	}
+#haut:hover{
+	opacity: 1;
+	text-decoration: none;
+	-webkit-transition: opacity 0.25s;
+	-moz-transition: opacity 0.25s;
+	-ms-transition: opacity 0.25s;
+	-o-transition: opacity 0.25s;
+	transition: opacity 0.25s;	
+	}	
+#content_1 {
+	width: 100%;
+	height: 600px;
+}
+#content_2 {
+	width:80%;
+	height: 800px;
+	padding-left:10%;
+	padding-right:10%;
+}
+#content_3 {
+	width:80%;
+	height: 600px;
+	padding-left:10%;
+	padding-right:10%;
+	z-index:3;
+}
+#content_3_gauche{
+	float:left;
+	z-index:3;
+	}
+#content_3_droit{
+
+	position:relative;
+	left:100px;
+	z-index:3;
+	
+	}
+#content_gauche {
+	padding-top: 60px;
+	padding-right:10px;
+	float: left;
+	
+	width: 100%;
+}
+#content_droit{
+	padding-top:60px;
+	padding-left:10px;
+	
+	width:100%;
+	}
+#titre {
+	font-weight: bolder;
+	font-family: Rockwell;
+	font-size: 60px;
+	color: #261717;
+	
+}
+#sous_titre{	
+	font-family: GeosansLight;
+	font-size:28px;
+	
+	color:#810303;
+	}
+hr {
+	
+	width:80%;
+	margin-left:10%;
+	color: red;
+	background-color: white;
+	height: 2px;
+	border: 0;
+}
+p{	padding:10px;
+	color:#261717;
+	font-size:16px;
+	font:Arial, Helvetica, sans-serif;
+	}
+th{
+	background-color:;
+	color:#E5D393;
+	font-family: "Agency FB";
+	background-color:#810303;
+	font-size:22px;
+	}	
+table tr .bouton {
+	font-family: "Agency FB";
+	font-size: 24px;
+	color: #E5D393;
+	margin: 5px;
+	padding: 10px;
+	cursor: pointer;
+	text-align: center;
+	font-weight: bold;
+}
+table tr .bouton:hover{
+	text-decoration:underline overline;
+	}
+.bouton a{
+	color: #E5D393;
+	}	
+.bouton{
+	font-family: "Agency FB";
+	font-size: 24px;
+	color: #E5D393;
+	margin: 5px;
+	padding: 10px;
+	cursor: pointer;
+	text-align: center;
+	font-weight: bold;
+	background-color:#810303;
+	border:none;
+	
+}
+.bouton:hover{
+	text-decoration:underline overline;
+	}
+
+input,textarea, label,select{
+	padding:10px;
+	color:#000;
+	font-size:15px;
+	font:Calibri;
+	}
+#heurs{
+	width: 100%;
+	}
+#img_b{
+	position:relative;
+	top:-286px;
+	}
+	
+#cadre{
+	z-index:1;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:20px;
+	text-align:center;
+	width:214px;
+	 height:286px;
+	}
+#cadre_b{
+	z-index:1;
+	position:relative;
+	top:286px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:20px;
+	text-align:center;
+	width:214px;
+	 height:286px;
+	}		
+#cadre_av{
+	vertical-align:middle;
+	display:table-cell;
+	position:relative;
+	top:-286px;
+	background-color:#333;
+	z-index:2;
+	height:286px;
+	width:214px;
+	opacity:0;
+	}
+#cadre_b_av{
+	vertical-align:middle;
+	display:table-cell;
+	position:relative;
+	top:-572px;
+	background-color:#333;
+	z-index:2;
+	height:286px;
+	width:214px;
+	opacity:0;
+}
+#cadre_av:hover{
+	
+	opacity: 0.9;
+	-webkit-transition: opacity 0.25s;
+	-moz-transition: opacity 0.25s;
+	-ms-transition: opacity 0.25s;
+	-o-transition: opacity 0.25s;
+	transition: opacity 0.25s;	
+	}	
+#cadre_b_av:hover{
+	opacity:0.9;
+	-webkit-transition: opacity 0.25s;
+	-moz-transition: opacity 0.25s;
+	-ms-transition: opacity 0.25s;
+	-o-transition: opacity 0.25s;
+	transition: opacity 0.25s;
+	}	
+#nom_p{
+	font-size:26px;
+	color:#EDEAA3;
+	font-family:"Agency FB";
+	text-decoration: underline;
+	}
+#fonction_p{
+	font-size:20px;
+	color:#FFF;	
+	font-family:"Agency FB";
+	}		
+#icon_p{
+	cursor: pointer;
+	}

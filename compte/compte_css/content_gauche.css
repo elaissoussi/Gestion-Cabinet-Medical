@@ -1,0 +1,55 @@
+@charset "utf-8";
+#profil {
+	
+
+
+}
+#rendezvous_form{
+	padding-left:10px;
+	}
+#titre_div{
+	padding:6px;
+	padding-left:10px;	
+	font-family: "Agency FB";
+	font-size:26px;
+	color: #999;
+	background-color: #191919;
+	cursor:pointer;
+	}	
+#titre_div.a{
+	padding:6px;
+	padding-left:10px;	
+	font-family: "Agency FB";
+	font-size:26px;
+	color: #999;
+	background-color: #191919;
+	cursor:pointer;
+	}	
+#donnees{
+	padding-top:8px;
+	padding-bottom:8px;
+	padding-left:10px;
+	padding-right:10px;
+	background-color:#FFF;
+	color:#810303;
+	font-size:16px;
+	font:Calibri;
+	}
+#donnees a{
+	color:black;
+	font-size:15px;
+	font:Calibri;
+	font-weight:bold;
+	}	
+#obser_ordo:hover{
+	height:100px;
+	
+	
+	}
+#don_adlin{
+	overflow: scroll;	
+	height:400px;
+	}	
+#ico_mem{
+	cursor:pointer;
+	}	
