@@ -1,6 +1,6 @@
 # Gestion-Cabinet-Medical
 
-### Projet pour la gestion d'un cabinet medical à Rabat - Maroc
+### Projet pour la gestion d'un cabinet medical
 
 Gérer les patients du cabinet. 
 Gérer  Les médecins du cabinet.
